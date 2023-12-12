@@ -1,0 +1,172 @@
+@font-face{
+	font-family: shutterstonestandard;
+	src: url(ShutterStoneStandar.ttf);
+}
+@font-face{
+	font-family: playfairdisplay;
+	src: url(PlayfairDisplay.ttf);
+}
+@font-face{
+	font-family: survivor;
+	src: url(survivant.ttf);
+}
+header{
+    font-family: survivor;
+    font-size: 60px;
+    color: #358bbd;
+}
+.nav{
+    font-family: survivor;
+    font-size: 25px;
+}
+nav a{
+	text-decoration: none;
+	color: #358bbd;
+}
+nav a:hover{
+	color: white;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	gap: 20px;
+    padding: 20px;
+    background-color: black;
+}
+#homepicsurvivor{
+	height: 700px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../PICS/survivor\ marooning\ picture.jpg");
+	background-position: center;
+}
+
+body{
+    font-family: playfairdisplay;
+
+}
+h2{
+    font-family: survivor;
+    color: #00ab50;
+}
+.text{
+    padding: 50px;
+}
+.underline{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: #358bbd;
+}
+/*div ol li{
+    display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 20px;
+}*/
+.tableautext{
+    font-family: survivor;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.youtubetext{
+    font-family: survivor;
+    font-size: 20px;
+    color: #358bbd;
+    display: flex;
+    justify-content: center;
+}
+.tableau{
+    background-color: #00ab50;
+    padding: 50px;
+}
+.youtube{
+    background-color: white;
+    padding: 50px;
+}
+.tableaugraph{
+    display: flex;
+    justify-content: center;
+}
+.youtubevideo{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+    padding: 50px;
+}
+footer p a{
+    text-decoration: none;
+    color: #00ab50;
+    font-size: 75px;
+    font-family: survivor;
+    display: flex;
+    justify-content: center;
+}
+footer p a:hover{
+    color: white;
+    
+}
+
+/*.common{
+    background-color: #cccccc; 
+    border: 2px solid white;
+    position: absolute;
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+
+.leftmenu{
+   top: 114px;
+   left: 5px ;
+   width: 100px;
+    bottom: 39px; 
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1px #555555;
+    padding-right: 5px;
+}
+
+.mainbody{
+    top: 114px;
+   left: 114px;
+   right: 114px;
+   bottom: 39px; 
+}
+
+.rightmenu{
+    top: 114px;
+    right: 5px ;
+    width: 100px;
+    bottom: 39px; 
+    border-left: solid 1px #555555;
+    padding-left: 5px;
+}
+
+.footer{
+    left: 5px;
+    right: 5px;
+    bottom: 5px; 
+    height: 25px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed
+}
+
+.subheader{
+    float: right;
+}
